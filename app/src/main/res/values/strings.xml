@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Two Activities</string>
+    <string name="send">SEND</string>
+    <string name="testedetexto">Teste de Texto</string>
 </resources>
