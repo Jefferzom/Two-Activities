@@ -8,8 +8,9 @@
 
     <Button
         android:id="@+id/button_main"
-        android:layout_width="115dp"
-        android:layout_height="41dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@color/purple_200"
         android:backgroundTint="@color/purple_500"
         android:onClick="launchSecondActivity"
@@ -17,21 +18,38 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.82"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.97"
-        tools:ignore="TextContrastCheck"
-        style="?android:attr/borderlessButtonStyle"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/editText_main"
+        app:layout_constraintVertical_bias="0.120000005"
+        tools:ignore="TextContrastCheck" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/testedetexto"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <EditText
+        android:id="@+id/editText_main"
+        android:layout_width="355dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="@string/editText_main"
+        android:inputType="textLongMessage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/header_title" />
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:text="@string/header_title"
+        android:textColor="#303F9F"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editText_main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.742" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
