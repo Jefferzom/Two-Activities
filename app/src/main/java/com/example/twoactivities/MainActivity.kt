@@ -31,6 +31,6 @@ class MainActivity : AppCompatActivity() {
             }
             putExtra(EXTRA_MESSAGE, message)
         }
-        onActivityResult(intent, TEXT_REQUEST)
+        startActivity(intent)
     }
 }
