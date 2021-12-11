@@ -18,6 +18,7 @@
 </p>
 
 ### 🚀 Objetivo - Desenvolver uma UI
+![gif align="center"](https://user-images.githubusercontent.com/60098547/145687280-5fff8020-0da9-4b2d-8220-35c581d6e66e.gif)
 
 Ideal por cima do projeto.
 =================
@@ -26,6 +27,7 @@ Ideal por cima do projeto.
    * Construir sua lógica de passar a informação para a segunda Activity.
    * Dar vida a segunda Activity.
    * Por fim passar informação de um campo EditText com o click do Button passar a informação para um campo de TextFIeld
+   * tem uma validação se você não enviar nada no EditText ele aparecerá logo do outro lado a mensagem (Você não enviou nada!)
 <!--te-->
 
 ### 🛠 Tecnologias
@@ -44,9 +46,9 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/Jefferzom/firstApp.git>
+$ git clone <https://github.com/Jefferzom/Two-Activities.git>
 
-# Espere a IDE ler os arquivos
+# Abra o Android Studio e espere a IDE ler os arquivos
 
 # Vá na setinha Verde logo a cima e click em 'Run'
 
