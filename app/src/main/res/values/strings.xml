@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Two Activities</string>
+    <string name="send">Enviar</string>
+    <string name="text_header">Mensagem Recebida</string>
+    <string name="header_title">Comunicação entre Activities</string>
+    <string name="editText_main">Entre com a sua mensagem aqui</string>
+    <string name="button_second">Repetir</string>
+    <string name="editText_second">Repetir o que foi digitado</string>
+    <string name="text_header_replay">Msg repetida recebida</string>
+</resources>
